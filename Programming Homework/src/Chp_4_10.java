@@ -50,32 +50,32 @@ public class Chp_4_10 {
 	    	    // Prompt the user to answer questions
 	    	    System.out.print("\nIs your birthday in Set2?\n");
 	    	    System.out.print(set2);
-	    	    System.out.print("\nEnter 0 for No and 1 for Yes: ");
-	    	     answer = input.next();
+	    	    System.out.print("\nEnter n for No and y for Yes: ");
+	    	    answer = input.next();
 	    	    if (answer.equals("y") || answer.equals("Y"))
 	    	      day += 2;
 
 	    	    // Prompt the user to answer questions
 	    	    System.out.print("\nIs your birthday in Set3?\n");
 	    	    System.out.print(set3);
-	    	    System.out.print("\nEnter 0 for No and 1 for Yes: ");
-	    	     answer = input.next();
+	    	    System.out.print("\nEnter n for No and y for Yes: ");
+	    	    answer = input.next();
 	    	    if (answer.equals("y") || answer.equals("Y"))
 	    	      day += 4;
 
 	    	    // Prompt the user to answer questions
 	    	    System.out.print("\nIs your birthday in Set4?\n");
 	    	    System.out.print(set4);
-	    	    System.out.print("\nEnter 0 for No and 1 for Yes: ");
-	    	     answer = input.next();
+	    	    System.out.print("\nEnter n for No and y for Yes: ");
+	    	    answer = input.next();
 	    	    if (answer.equals("y") || answer.equals("Y"))
 	    	      day += 8;
 
 	    	    // Prompt the user to answer questions
 	    	    System.out.print("\nIs your birthday in Set5?\n");
 	    	    System.out.print(set5);
-	    	    System.out.print("\nEnter 0 for No and 1 for Yes: ");
-	    	     answer = input.next();
+	    	    System.out.print("\nEnter n for No and y for Yes: ");
+	    	    answer = input.next();
 	    	    if (answer.equals("y") || answer.equals("Y"))
 	    	      day += 16;
 
